@@ -79,7 +79,7 @@ public class Soduko {
             for (int i = 0; i < GRID_SIZE; ++i) {
                 System.out.println(Arrays.toString(board[i]));
             }
-            System.exit(0);
+            System.exit(1);
         } else
             System.out.println("Unsolvable sudoku");
     }
